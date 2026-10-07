@@ -1,0 +1,26 @@
+{
+  "name": "wechat-official-publisher",
+  "version": "0.2.0",
+  "description": "Turn organized source material into mobile-safe WeChat Official Account articles, preview them, and publish through the official API.",
+  "author": { "name": "Local" },
+  "license": "UNLICENSED",
+  "keywords": ["wechat", "official account", "writing", "formatting", "draft", "publishing"],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "微信公众号写作发布",
+    "shortDescription": "手机友好排版、预览并同步公众号草稿",
+    "longDescription": "基于已整理素材生成或整理公众号文章，默认输出更稳定的手机排版 HTML，预览后同步到草稿箱，并在明确确认后提交发布。",
+    "developerName": "Local",
+    "category": "Productivity",
+    "capabilities": ["Read", "Write"],
+    "defaultPrompt": [
+      "把我整理的内容排版成公众号文章",
+      "将这篇文章同步到公众号草稿箱",
+      "预览并发布已经确认的公众号草稿"
+    ],
+    "brandColor": "#07C160",
+    "composerIcon": "./assets/icon.svg",
+    "logo": "./assets/icon.svg"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "mcpServers": {
+    "wechat-official-publisher": {
+      "command": "/bin/sh",
+      "args": ["-c", "exec node ./server.mjs"],
+      "cwd": ".",
+      "enabled": true,
+      "env_vars": [
+        "WECHAT_APP_ID",
+        "WECHAT_APP_SECRET",
+        "WECHAT_ACCESS_TOKEN"
+      ],
+      "tool_timeout_sec": 120
+    }
+  }
+}

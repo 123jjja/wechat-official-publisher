@@ -27,6 +27,8 @@ WECHAT_APP_SECRET=公众号 AppSecret
 
 账号还需在微信公众平台配置接口权限和 IP 白名单。默认工作流只创建草稿，发布必须再次确认。
 
+公开仓库中只应提交插件源码。不要提交真实 AppID、AppSecret、Access Token、本机凭证脚本或带账号信息的预览文件；仓库已提供 `.gitignore` 作为基础防护。发布前还应检查 Git 提交作者邮箱是否为愿意公开的地址，必要时先启用 GitHub 的 noreply 邮箱。
+
 ## 本地排版测试
 
 ```bash

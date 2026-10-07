@@ -1,0 +1,9 @@
+# Local credentials and machine-specific artifacts must never be committed.
+.env
+.env.*
+!.env.example
+.DS_Store
+*.log
+配置公众号凭证.command
+preview.html
+wechat-preview.html
